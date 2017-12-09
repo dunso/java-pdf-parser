@@ -12,10 +12,10 @@ public class Sample {
         V8Function callback = new V8Function(runtime, (receiver, parameters) -> {
             Object o = parameters.get(0);
             System.out.println(o.toString());
-            return o.toString();
+            return null;
         });
 
-        Object d = pafParser.executeJSFunction("getJson", resolveName(Sample.class.getResource("test.pdf").getPath()), callback);
+        pafParser.executeJSFunction("getJson", resolveName(Sample.class.getResource("test.pdf").getPath()), callback);
 
         while (nodeJS.isRunning()) {
             nodeJS.handleMessage();

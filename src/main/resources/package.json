@@ -1,0 +1,26 @@
+{
+  "name": "java-pdf-parser",
+  "version": "1.0.0",
+  "description": "Show the usage of pdf-parser in java",
+  "main": "index.js",
+  "dependencies": {
+    "pdf-parser": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunso/java-pdf-parser.git"
+  },
+  "keywords": [
+    "java",
+    "pdf",
+    "parser",
+    "convertor",
+    "pdf.js"
+  ],
+  "author": "dunso",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dunso/java-pdf-parser/issues"
+  },
+  "homepage": "https://github.com/dunso/java-pdf-parser#readme"
+}
