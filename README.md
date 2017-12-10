@@ -1,4 +1,4 @@
-# JPdfParser
+# java-pdf-parser
 Show the usage of [pdf-parser](https://github.com/dunso/pdf-parser) in java
 
 ## Getting the Code
