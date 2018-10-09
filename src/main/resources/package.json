@@ -4,7 +4,7 @@
   "description": "Show the usage of pdf-parser in java",
   "main": "index.js",
   "dependencies": {
-    "pdf-parser": "^1.0.4"
+    "pdf-parser": "^1.0.5"
   },
   "repository": {
     "type": "git",
